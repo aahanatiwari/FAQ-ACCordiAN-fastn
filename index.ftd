@@ -1,0 +1,164 @@
+
+-- ftd.shadow s2:
+color: red
+y-offset.px: 25
+blur.px: 25
+
+
+-- ftd.type faq:
+size.px: 25
+weight: 400
+
+-- ftd.type dtype:
+color: hsl(228, 12%, 48%)
+size.px: 10
+letter-spacing.px: 3
+
+-- ftd.type dtype2:
+size.px: 20
+weight: 900
+
+-- ftd.type dtype3:
+size.px: 10
+
+-- ftd.type dtype4:
+size.px: 13
+
+-- ftd.type dtype5:
+size.px: 16
+
+-- ftd.type car:
+size.px: 11
+
+
+
+
+;; ------------------ FAQ COMPONENT---------------
+
+-- ftd.column:
+padding.px:40
+spacing.fixed.px:450
+width: fill-container
+height: fill-container
+align-content:center
+background.solid:hsl(273, 75%, 66%)
+
+
+
+
+
+-- ftd.column:
+margin-top.px: 40
+margin-bottom.px: 40
+border-radius.px: 15
+width.fixed.px: 880
+height.fixed.px: 400
+background.solid:white
+
+
+
+-- ftd.row:
+-- ftd.image:
+src: illustration-woman-online-desktop.svg
+width.fixed.px: 400
+padding-right.px: 50
+margin-top.px: 40
+
+
+
+
+
+
+
+-- ftd.column:
+spacing.fixed.px: 10
+margin-top.px: 60
+padding-left.px: 50
+-- ftd.text: FAQ
+role: $faq
+style: bold
+-- ftd.row:
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 70
+-- ftd.text: How many team members can I invite?
+margin-top.px: 16
+margin-bottom.px: 10
+role: $dtype4
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+margin-top.px: 10
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.column:
+-- ftd.row:
+spacing.fixed.px: 75
+-- ftd.text: What is the maximum file upload size?
+margin-bottom.px: 10
+role: $dtype4
+style: bold
+color: hsl(237, 12%, 33%)
+-- ftd.text: ^
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.text: No more than 2GB. All files in your account must fit your alloted storage space.
+role: $dtype4
+color: hsl(240, 6%, 50%)
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+-- end: ftd.column
+-- ftd.row:
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 129
+-- ftd.text: How do I reset my password?
+margin-bottom.px: 10
+role: $dtype4
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.row:
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 127
+-- ftd.text: Can I cancel my subscription?
+margin-bottom.px: 10
+role: $dtype4
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+-- ftd.row:
+border-bottom-width.px: 2
+border-color: hsl(240, 5%, 91%)
+spacing.fixed.px: 103
+-- ftd.text: Do you provide addtional support?
+margin-bottom.px: 10
+role: $dtype4
+color: hsl(240, 6%, 50%)
+-- ftd.text: v
+style: bold
+color: hsl(14, 88%, 65%)
+-- end: ftd.row
+
+
+
+
+
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+
+
+-- end: ftd.column
+-- end: ftd.column
+
+
